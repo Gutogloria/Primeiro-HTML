@@ -1,0 +1,62 @@
+/* Define a cor de fundo do corpo como azul */
+body {
+    background-color: #007bff;
+    font-family: Arial, sans-serif; /* Define a fonte do texto no corpo */
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #333; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto no cabeçalho */
+    padding: 29px; /* Espaçamento interno do cabeçalho */
+    text-align: center; /* Alinhamento do texto no cabeçalho */
+}
+
+/* Estilos para o título */
+h1 {
+    margin: 0; /* Remove a margem padrão do título */
+}
+
+/* Estilos para a seção */
+section {
+    text-align: center; /* Alinhamento do texto na seção */
+    margin-top: 20px; /* Margem superior da seção */
+}
+
+/* Estilos para o botão */
+button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto no botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Raio da borda do botão */
+    font-size: 16px; /* Tamanho da fonte do botão */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+}
+
+/* Estilos para o pop-up */
+.popup {
+    display: none; /* Oculta o pop-up por padrão */
+    position: fixed; /* Define a posição do pop-up como fixa */
+    top: 50%; /* Define a posição superior do pop-up */
+    left: 50%; /* Define a posição esquerda do pop-up */
+    transform: translate(-50%, -50%); /* Centraliza o pop-up */
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo do pop-up com transparência */
+    padding: 20px; /* Espaçamento interno do pop-up */
+    border-radius: 5px; /* Raio da borda do pop-up */
+    color: white; /* Cor do texto no pop-up */
+}
+
+/* Estilos para o conteúdo do pop-up */
+.popup-content {
+    text-align: center; /* Alinhamento do texto no conteúdo do pop-up */
+}
+
+/* Estilos para o botão de fechar do pop-up */
+.close {
+    position: absolute; /* Define a posição absoluta do botão de fechar */
+    top: 5px; /* Define a posição superior do botão de fechar */
+    right: 10px; /* Define a posição direita do botão de fechar */
+    font-size: 20px; /* Tamanho da fonte do botão de fechar */
+    cursor: pointer; /* Altera o cursor ao passar sobre o botão de fechar */
+}
